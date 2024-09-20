@@ -1,0 +1,3175 @@
+RTS VERSION = 2889
+syspar   file version = 2889 (min vers = 2889)
+sysdebug file version = 2889 (min vers = 2889)
+systrace file version = 2889 (min vers = 2889)
+trcevent file version = 2889 (min vers = 2889)
+usrdebug file version = 2889 (min vers = 2889)
+statist  file version = 2889 (min vers = 2889)
+ProcCount=1  HasCurrent=1  CentralProc=0  IOProc=0
+ProcPowerMeasuring:  PPMeasureCount=100000  PPMeasureTime=0.000001
+Applied processes number = 1     Input/output processes number = 0
+Applied:                         Input/output:
+N     IN     NAME              N  IN     NAME
+0_0    0      DVM               -
+ProcCount=1;      PSRank=4;      PSSize= 1 1 1 1;
+VProcCount=0;
+MasterProc=0(0);   IOProc=0(0);   CentralProc=0(0);   MeanProcTime=0.000001;
+IntProcNumber  ExtProcNumber  ProcIdent  ProcWeight
+0              0            0        1.00
+CoordWeight[0]= 1.00(1.00)  
+CoordWeight[1]= 1.00(1.00)  
+CoordWeight[2]= 1.00(1.00)  
+CoordWeight[3]= 1.00(1.00)  
+MaxMsgLength  MsgBufLength  MsgBuf1Length  MaxMsgSendNumber  ChanNumber  Dupl
+0             0             0                0           0       0
+0
+MPS=MPI;  Non-standard run;
+call_mps_Barrier           TIME=0.00086141 LINE=8      FILE=jach.f
+ret_mps_Barrier            TIME=0.00000100 LINE=8      FILE=jach.f
+Tm=0.000000  Tirecv=0.000001  Twrecv=0.000001
+ret_dvm_Init               TIME=0.00012064 LINE=8      FILE=jach.f
+
+call_begbl_                TIME=0.09792995 LINE=8      FILE=jach.f
+
+ret_begbl_                 TIME=0.00000095 LINE=8      FILE=jach.f
+
+call_crtamv_               TIME=0.00000191 LINE=4      FILE=jach.f
+AMRefPtr=NULL; AMRef=0; Rank=2; StaticSign=0;
+SizeArray[0]=8; SizeArray[1]=8;  
+
+ret_crtamv_                TIME=0.00000215 LINE=4      FILE=jach.f
+AMViewRef=17db030;
+
+call_distr_                TIME=0.00000100 LINE=4      FILE=jach.f
+AMViewRefPtr=7ffd651824a8; AMViewRef=17db030; PSRefPtr=NULL; PSRef=0; ParamCount=2;
+AxisArray[0]=2;       AxisArray[1]=1;  
+DistrParamArray[0]=0; DistrParamArray[1]=0;  
+ProcCount=1  HasCurrent=1  CentralProc=0  IOProc=0
+
+ret_distr_                 TIME=0.00002480 LINE=4      FILE=jach.f
+IsLocal=1;
+
+call_crtda_                TIME=0.00000100 LINE=4      FILE=jach.f
+ArrayHeader=7ffd651825b0; ExtHdrSign=1; BasePtr=9681e0; Rank=2; TypeSize=4; StaticSign=0; ReDistrSign=0;
+SizeArray[0]=8; SizeArray[1]=8;  
+LowShdWidthArray[0]=1; LowShdWidthArray[1]=1;  
+HiShdWidthArray[0]=1;  HiShdWidthArray[1]=1;  
+
+ret_crtda_                 TIME=0.00000787 LINE=4      FILE=jach.f
+ArrayHandlePtr=17e6dc0;
+
+call_align_                TIME=0.00000100 LINE=4      FILE=jach.f
+ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; PatternRefPtr=7ffd651824a8; PatternRef=17db030 (AMView);
+AxisArray[0]=1;  AxisArray[1]=2;  
+CoeffArray[0]=1; CoeffArray[1]=1;  
+ConstArray[0]=0; ConstArray[1]=0;  
+DArr->ArrBlock.ALoc.Ptr0=1861000  DArr->ArrBlock.ALoc.Ptr=1861000  Size=332
+
+ret_align_                 TIME=0.00001216 LINE=4      FILE=jach.f
+IsLocal=1
+
+call_crtda_                TIME=0.00000100 LINE=5      FILE=jach.f
+ArrayHeader=7ffd651826e0; ExtHdrSign=1; BasePtr=9681e0; Rank=2; TypeSize=4; StaticSign=0; ReDistrSign=0;
+SizeArray[0]=8; SizeArray[1]=8;  
+LowShdWidthArray[0]=1; LowShdWidthArray[1]=1;  
+HiShdWidthArray[0]=1;  HiShdWidthArray[1]=1;  
+
+ret_crtda_                 TIME=0.00000191 LINE=5      FILE=jach.f
+ArrayHandlePtr=180cc80;
+
+call_align_                TIME=0.00000100 LINE=5      FILE=jach.f
+ArrayHeader=7ffd651826e0; ArrayHandlePtr=180cc80; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;  AxisArray[1]=2;  
+CoeffArray[0]=1; CoeffArray[1]=1;  
+ConstArray[0]=0; ConstArray[1]=0;  
+DArr->ArrBlock.ALoc.Ptr0=1862000  DArr->ArrBlock.ALoc.Ptr=1862000  Size=332
+
+ret_align_                 TIME=0.00000668 LINE=5      FILE=jach.f
+IsLocal=1
+
+call_biof_                 TIME=0.00000100 LINE=8      FILE=jach.f
+
+ret_biof_                  TIME=0.00000095 LINE=8      FILE=jach.f
+
+call_tstio_                TIME=0.00000119 LINE=8      FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=8      FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00013089 LINE=8      FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=8      FILE=jach.f
+
+call_crtpl_                TIME=0.00013304 LINE=11     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=11     FILE=jach.f
+LoopRef=1864650;
+
+call_mappl_                TIME=0.00000100 LINE=11     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1864650; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=1; InInitIndexArray[1]=1;  
+InLastIndexArray[0]=8; InLastIndexArray[1]=8;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00001192 LINE=11     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00002289 LINE=14     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1864650;
+
+ret_dopl_                  TIME=0.00000095 LINE=14     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00021005 LINE=14     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1864650;
+
+ret_dopl_                  TIME=0.00000100 LINE=14     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000691 LINE=22     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1864650;
+
+ret_endpl_                 TIME=0.00000405 LINE=22     FILE=jach.f
+
+call_crtrg_                TIME=0.00003099 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000119 LINE=28     FILE=jach.f
+RedGroupRef=1865f90;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000215 LINE=28     FILE=jach.f
+LoopRef=18689f0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18689f0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000620 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865f90; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=18689f0; RenewSign=0;
+
+ret_insred_                TIME=0.00000286 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000811 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18689f0;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00004315 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18689f0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18689f0;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865f90;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000787 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865f90;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1865f90;
+
+ret_delobj_                TIME=0.00000501 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000215 LINE=35     FILE=jach.f
+LoopRef=1865f90;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRef=18691c0;
+
+call_inssh_                TIME=0.00000119 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18691c0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000191 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001407 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18691c0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18691c0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865f90; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000381 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001788 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865f90;
+
+ret_dopl_                  TIME=0.00000119 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002766 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865f90;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000405 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865f90;
+
+ret_endpl_                 TIME=0.00000286 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00003386 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00003290 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000119 LINE=28     FILE=jach.f
+RedGroupRef=1865f90;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000119 LINE=28     FILE=jach.f
+RedRef=1869990;
+
+call_crtpl_                TIME=0.00000100 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000167 LINE=28     FILE=jach.f
+LoopRef=18691c0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18691c0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000477 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865f90; RedRefPtr=7ffd65182588; RedRef=1869990; LoopRefPtr=7ffd651824b8; LoopRef=18691c0; RenewSign=0;
+
+ret_insred_                TIME=0.00000191 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000501 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18691c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003600 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18691c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000405 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18691c0;
+
+ret_endpl_                 TIME=0.00000119 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865f90;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865f90;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1865f90;
+
+ret_delobj_                TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=1865f90;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=18689f0;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000119 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001788 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865f90; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000381 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001192 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865f90;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002599 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865f90;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865f90;
+
+ret_endpl_                 TIME=0.00000310 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000100 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000906 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002694 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=18699f0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=18689f0;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1868a50;
+
+call_mappl_                TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1868a50; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000310 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18699f0; RedRefPtr=7ffd65182588; RedRef=18689f0; LoopRefPtr=7ffd651824b8; LoopRef=1868a50; RenewSign=0;
+
+ret_insred_                TIME=0.00000024 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1868a50;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003195 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1868a50;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1868a50;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18699f0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18699f0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18699f0;
+
+ret_delobj_                TIME=0.00000310 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=18699f0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=1869990;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869990; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001097 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869990;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869990;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18699f0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000572 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001121 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18699f0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002599 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18699f0;
+
+ret_dopl_                  TIME=0.00000119 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000191 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18699f0;
+
+ret_endpl_                 TIME=0.00000215 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000978 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002408 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=18699f0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000119 LINE=28     FILE=jach.f
+LoopRef=1869990;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000668 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18699f0; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=1869990; RenewSign=0;
+
+ret_insred_                TIME=0.00000191 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000501 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003099 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000095 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000095 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18699f0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18699f0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18699f0;
+
+ret_delobj_                TIME=0.00000310 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000072 LINE=35     FILE=jach.f
+LoopRef=18699f0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=1868a50;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1868a50; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000095 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00000906 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1868a50;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1868a50;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18699f0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000381 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001216 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18699f0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002813 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18699f0;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000215 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18699f0;
+
+ret_endpl_                 TIME=0.00000405 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000100 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000787 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002480 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1869bb0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000119 LINE=28     FILE=jach.f
+RedRef=1868a50;
+
+call_crtpl_                TIME=0.00000100 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000286 LINE=28     FILE=jach.f
+LoopRef=18691c0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18691c0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000286 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0; RedRefPtr=7ffd65182588; RedRef=1868a50; LoopRefPtr=7ffd651824b8; LoopRef=18691c0; RenewSign=0;
+
+ret_insred_                TIME=0.00000095 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000405 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18691c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003099 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18691c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18691c0;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000215 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869bb0;
+
+ret_delobj_                TIME=0.00000095 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=1869bb0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=1865a40;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000191 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00000906 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000119 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000310 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001097 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002694 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000405 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0;
+
+ret_endpl_                 TIME=0.00000310 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000286 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00001097 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002480 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=1869bb0;
+
+call_crtred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000191 LINE=28     FILE=jach.f
+RedRef=18689f0;
+
+call_crtpl_                TIME=0.00000100 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000215 LINE=28     FILE=jach.f
+LoopRef=1865a40;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865a40; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000381 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000119 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0; RedRefPtr=7ffd65182588; RedRef=18689f0; LoopRefPtr=7ffd651824b8; LoopRef=1865a40; RenewSign=0;
+
+ret_insred_                TIME=0.00000100 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865a40;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002980 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865a40;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865a40;
+
+ret_endpl_                 TIME=0.00000095 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869bb0;
+
+ret_delobj_                TIME=0.00000286 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000119 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRef=1869bb0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=18691c0;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18691c0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000191 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001693 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18691c0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18691c0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001001 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002575 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000215 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0;
+
+ret_endpl_                 TIME=0.00000405 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000119 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000100 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000978 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002503 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=18665a0;
+
+call_crtred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000191 LINE=28     FILE=jach.f
+RedRef=18691c0;
+
+call_crtpl_                TIME=0.00000100 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000286 LINE=28     FILE=jach.f
+LoopRef=1869990;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18665a0; RedRefPtr=7ffd65182588; RedRef=18691c0; LoopRefPtr=7ffd651824b8; LoopRef=1869990; RenewSign=0;
+
+ret_insred_                TIME=0.00000100 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000501 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002909 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000215 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18665a0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18665a0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000191 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18665a0;
+
+ret_delobj_                TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=18665a0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=18689f0;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000191 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18665a0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001216 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18665a0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002813 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18665a0;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000119 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18665a0;
+
+ret_endpl_                 TIME=0.00000215 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000906 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002503 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=18689f0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1869990;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000310 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18689f0; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=1869990; RenewSign=0;
+
+ret_insred_                TIME=0.00000215 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000381 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002909 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000215 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18689f0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18689f0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000191 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18689f0;
+
+ret_delobj_                TIME=0.00000215 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000286 LINE=35     FILE=jach.f
+LoopRef=18689f0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=18652b0;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18652b0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001097 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18652b0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18652b0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18689f0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000310 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001311 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18689f0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002694 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18689f0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18689f0;
+
+ret_endpl_                 TIME=0.00000191 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000882 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002289 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=18652b0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=18691c0;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000119 LINE=28     FILE=jach.f
+LoopRef=1869990;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18652b0; RedRefPtr=7ffd65182588; RedRef=18691c0; LoopRefPtr=7ffd651824b8; LoopRef=1869990; RenewSign=0;
+
+ret_insred_                TIME=0.00000191 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000405 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002885 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18652b0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18652b0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000215 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18652b0;
+
+ret_delobj_                TIME=0.00000072 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000286 LINE=35     FILE=jach.f
+LoopRef=18652b0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRef=1868a50;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1868a50; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000191 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1868a50;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1868a50;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18652b0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001001 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18652b0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002384 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18652b0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000191 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18652b0;
+
+ret_endpl_                 TIME=0.00000191 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000215 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000906 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002408 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1868a50;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000119 LINE=28     FILE=jach.f
+LoopRef=1869990;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000381 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000119 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1868a50; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=1869990; RenewSign=0;
+
+ret_insred_                TIME=0.00000100 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000119 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003004 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1868a50;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1868a50;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1868a50;
+
+ret_delobj_                TIME=0.00000286 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRef=1868a50;
+
+call_crtshg_               TIME=0.00000119 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRef=18689f0;
+
+call_inssh_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=18689f0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1868a50; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00002289 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1868a50;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003099 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1868a50;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000405 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1868a50;
+
+ret_endpl_                 TIME=0.00000310 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00011992 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00003004 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=18691c0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1869990;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1865a40;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865a40; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000691 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18691c0; RedRefPtr=7ffd65182588; RedRef=1869990; LoopRefPtr=7ffd651824b8; LoopRef=1865a40; RenewSign=0;
+
+ret_insred_                TIME=0.00000191 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865a40;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003386 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865a40;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000191 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865a40;
+
+ret_endpl_                 TIME=0.00000095 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18691c0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18691c0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18691c0;
+
+ret_delobj_                TIME=0.00000215 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000215 LINE=35     FILE=jach.f
+LoopRef=18691c0;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRef=1869a90;
+
+call_inssh_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869a90; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000095 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00000906 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869a90;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869a90;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18691c0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000477 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001287 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18691c0;
+
+ret_dopl_                  TIME=0.00000119 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002694 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18691c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18691c0;
+
+ret_endpl_                 TIME=0.00000381 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000100 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00011611 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002980 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=18652b0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1869a90;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1861ea0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000811 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18652b0; RedRefPtr=7ffd65182588; RedRef=1869a90; LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; RenewSign=0;
+
+ret_insred_                TIME=0.00000095 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003290 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18652b0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18652b0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18652b0;
+
+ret_delobj_                TIME=0.00000405 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=18652b0;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRef=1869990;
+
+call_inssh_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869990; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000215 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00000882 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869990;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869990;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18652b0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000215 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001192 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18652b0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002599 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18652b0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18652b0;
+
+ret_endpl_                 TIME=0.00000405 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00020981 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00003004 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000119 LINE=28     FILE=jach.f
+RedGroupRef=1869990;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1861ea0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; RenewSign=0;
+
+ret_insred_                TIME=0.00000215 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000119 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003505 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0;
+
+ret_endpl_                 TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869990;
+
+ret_delobj_                TIME=0.00000119 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000310 LINE=35     FILE=jach.f
+LoopRef=1869990;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRef=1869d70;
+
+call_inssh_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000215 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000215 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000095 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001097 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002599 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000310 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000100 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00015998 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00003004 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=18692c0;
+
+call_crtred_               TIME=0.00000119 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1869d70;
+
+call_crtpl_                TIME=0.00000191 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1869a90;
+
+call_mappl_                TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869a90; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000215 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18692c0; RedRefPtr=7ffd65182588; RedRef=1869d70; LoopRefPtr=7ffd651824b8; LoopRef=1869a90; RenewSign=0;
+
+ret_insred_                TIME=0.00000215 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000596 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869a90;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003409 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869a90;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869a90;
+
+ret_endpl_                 TIME=0.00000286 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18692c0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=18692c0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=18692c0;
+
+ret_delobj_                TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=18692c0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=1865a40;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000095 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000119 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18692c0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001192 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18692c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002789 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=18692c0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=18692c0;
+
+ret_endpl_                 TIME=0.00000286 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00014400 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00003004 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1869bb0;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000095 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000100 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=28     FILE=jach.f
+LoopRef=1861ea0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000691 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; RenewSign=0;
+
+ret_insred_                TIME=0.00000095 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000620 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003314 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000405 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0;
+
+ret_endpl_                 TIME=0.00000215 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000119 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000072 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869bb0;
+
+ret_delobj_                TIME=0.00000215 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000215 LINE=35     FILE=jach.f
+LoopRef=1869bb0;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRef=1869d70;
+
+call_inssh_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000095 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001097 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000525 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001097 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002694 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000191 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0;
+
+ret_endpl_                 TIME=0.00000095 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000286 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00001502 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002599 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1868d90;
+
+call_crtred_               TIME=0.00000215 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1869d70;
+
+call_crtpl_                TIME=0.00000191 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1869a90;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869a90; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000715 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1868d90; RedRefPtr=7ffd65182588; RedRef=1869d70; LoopRefPtr=7ffd651824b8; LoopRef=1869a90; RenewSign=0;
+
+ret_insred_                TIME=0.00000095 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000501 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869a90;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003195 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869a90;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000381 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869a90;
+
+ret_endpl_                 TIME=0.00000095 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1868d90;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1868d90;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1868d90;
+
+ret_delobj_                TIME=0.00000286 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=1868d90;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRef=1865a40;
+
+call_inssh_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000095 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1865a40;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000215 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1868d90; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000310 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001001 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1868d90;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002480 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1868d90;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000215 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1868d90;
+
+ret_endpl_                 TIME=0.00000191 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000286 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00001001 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002503 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRef=1869990;
+
+call_crtred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000095 LINE=28     FILE=jach.f
+RedRef=1865a40;
+
+call_crtpl_                TIME=0.00000100 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000286 LINE=28     FILE=jach.f
+LoopRef=1861ea0;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000405 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990; RedRefPtr=7ffd65182588; RedRef=1865a40; LoopRefPtr=7ffd651824b8; LoopRef=1861ea0; RenewSign=0;
+
+ret_insred_                TIME=0.00000100 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000501 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000095 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003004 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1861ea0;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1861ea0;
+
+ret_endpl_                 TIME=0.00000095 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869990;
+
+ret_delobj_                TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000310 LINE=35     FILE=jach.f
+LoopRef=1869990;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRef=1869d70;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000381 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869d70;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000596 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001097 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002694 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00000310 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000286 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000100 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000811 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002503 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1869990;
+
+call_crtred_               TIME=0.00000191 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1869a30;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=28     FILE=jach.f
+LoopRef=1869d70;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869d70; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000787 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990; RedRefPtr=7ffd65182588; RedRef=1869a30; LoopRefPtr=7ffd651824b8; LoopRef=1869d70; RenewSign=0;
+
+ret_insred_                TIME=0.00000215 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000405 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869d70;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003004 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869d70;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000381 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869d70;
+
+ret_endpl_                 TIME=0.00000119 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869990;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000100 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869990;
+
+ret_delobj_                TIME=0.00000215 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000100 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=35     FILE=jach.f
+LoopRef=1869990;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000095 LINE=35     FILE=jach.f
+ShadowGroupRef=1861ea0;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1861ea0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000191 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00000882 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1861ea0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1861ea0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000381 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001121 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002408 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869990;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000191 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869990;
+
+ret_endpl_                 TIME=0.00001001 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000215 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000906 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002599 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1869bb0;
+
+call_crtred_               TIME=0.00000191 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1861ea0;
+
+call_crtpl_                TIME=0.00000215 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000191 LINE=28     FILE=jach.f
+LoopRef=1869a90;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869a90; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000501 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0; RedRefPtr=7ffd65182588; RedRef=1861ea0; LoopRefPtr=7ffd651824b8; LoopRef=1869a90; RenewSign=0;
+
+ret_insred_                TIME=0.00000191 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000405 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869a90;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00003195 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869a90;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000286 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869a90;
+
+ret_endpl_                 TIME=0.00000119 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1869bb0;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1869bb0;
+
+ret_delobj_                TIME=0.00000119 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000119 LINE=35     FILE=jach.f
+LoopRef=1869bb0;
+
+call_crtshg_               TIME=0.00000100 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000191 LINE=35     FILE=jach.f
+ShadowGroupRef=1869a30;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869a30; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000215 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001001 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869a30;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1869a30;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000310 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001097 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002503 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869bb0;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000191 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869bb0;
+
+ret_endpl_                 TIME=0.00000310 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000310 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000191 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000882 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_crtrg_                TIME=0.00002503 LINE=28     FILE=jach.f
+StaticSign=1; DelRedSign=1;
+
+ret_crtrg_                 TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRef=1865a40;
+
+call_crtred_               TIME=0.00000095 LINE=28     FILE=jach.f
+RedFuncNumb=3; RedArrayPtr=968420; RedArrayType=3; RedArrayLength=1; LocArrayPtr=7ea020; LocElmLength=0; StaticSign=1;
+
+ret_crtred_                TIME=0.00000100 LINE=28     FILE=jach.f
+RedRef=1869a30;
+
+call_crtpl_                TIME=0.00000095 LINE=28     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000119 LINE=28     FILE=jach.f
+LoopRef=1869d70;
+
+call_mappl_                TIME=0.00000100 LINE=28     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869d70; PatternRefPtr=7ffd651825b0; PatternRef=17e6dc0 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000525 LINE=28     FILE=jach.f
+IsLocal=1;
+
+call_insred_               TIME=0.00000100 LINE=28     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865a40; RedRefPtr=7ffd65182588; RedRef=1869a30; LoopRefPtr=7ffd651824b8; LoopRef=1869d70; RenewSign=0;
+
+ret_insred_                TIME=0.00000191 LINE=28     FILE=jach.f
+
+call_dopl_                 TIME=0.00000405 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869d70;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002980 LINE=30     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1869d70;
+
+ret_dopl_                  TIME=0.00000100 LINE=30     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000310 LINE=34     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1869d70;
+
+ret_endpl_                 TIME=0.00000072 LINE=34     FILE=jach.f
+
+call_strtrd_               TIME=0.00000100 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865a40;
+*** MPI_Comm Information ***
+&MPI_Comm=17f2440; &MPI_Group=17f2444; ProcNumber=1; time=0.000000;
+MPI_Group:    0
+*** MPI_Allreduce ***
+VarCount=1; MPI_Datatype=MPI_FLOAT; MPI_Op=MPI_MAX; &MPI_Comm=17f2440;
+*** DoNotMPIRed = 0
+
+ret_strtrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_waitrd_               TIME=0.00000095 LINE=34     FILE=jach.f
+RedGroupRefPtr=7ffd651824f0; RedGroupRef=1865a40;
+
+ret_waitrd_                TIME=0.00000100 LINE=34     FILE=jach.f
+
+call_delobj_               TIME=0.00000095 LINE=34     FILE=jach.f
+ObjectRefPtr=7ffd650823d8; ObjectRef=1865a40;
+
+ret_delobj_                TIME=0.00000191 LINE=34     FILE=jach.f
+
+call_crtpl_                TIME=0.00000095 LINE=35     FILE=jach.f
+Rank=2;
+
+ret_crtpl_                 TIME=0.00000095 LINE=35     FILE=jach.f
+LoopRef=1865a40;
+
+call_crtshg_               TIME=0.00000095 LINE=35     FILE=jach.f
+StaticSign=0;
+
+ret_crtshg_                TIME=0.00000119 LINE=35     FILE=jach.f
+ShadowGroupRef=1861ea0;
+
+call_inssh_                TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1861ea0; ArrayHeader=7ffd651825b0; ArrayHandlePtr=17e6dc0; FullShdSign=0;
+LowShdWidthArray[0]=-1; LowShdWidthArray[1]=-1;  
+HiShdWidthArray[0]=-1;  HiShdWidthArray[1]=-1;  
+
+ret_inssh_                 TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_strtsh_               TIME=0.00001073 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1861ea0;
+
+ret_strtsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_waitsh_               TIME=0.00000100 LINE=35     FILE=jach.f
+ShadowGroupRefPtr=7ffd651824f0; ShadowGroupRef=1861ea0;
+
+ret_waitsh_                TIME=0.00000100 LINE=35     FILE=jach.f
+
+call_mappl_                TIME=0.00000100 LINE=35     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865a40; PatternRefPtr=7ffd651826e0; PatternRef=180cc80 (DisArray);
+AxisArray[0]=1;        AxisArray[1]=2;  
+CoeffArray[0]=1;       CoeffArray[1]=1;  
+ConstArray[0]=-1;       ConstArray[1]=-1;  
+LoopVarAddrArray[0]=7ffd65182854; LoopVarAddrArray[1]=7ffd65182980;  
+LoopVarTypeArray[0]=1; LoopVarTypeArray[1]=1;  
+InInitIndexArray[0]=2; InInitIndexArray[1]=2;  
+InLastIndexArray[0]=7; InLastIndexArray[1]=7;  
+InStepArray[0]=1;      InStepArray[1]=1;  
+
+ret_mappl_                 TIME=0.00000691 LINE=35     FILE=jach.f
+IsLocal=1;
+
+call_dopl_                 TIME=0.00001097 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865a40;
+
+ret_dopl_                  TIME=0.00000100 LINE=38     FILE=jach.f
+DoPL=1;
+
+call_dopl_                 TIME=0.00002718 LINE=38     FILE=jach.f
+LoopRefPtr=7ffd650823c0; LoopRef=1865a40;
+
+ret_dopl_                  TIME=0.00000095 LINE=38     FILE=jach.f
+DoPL=0;
+
+call_endpl_                TIME=0.00000215 LINE=42     FILE=jach.f
+LoopRefPtr=7ffd651824b8; LoopRef=1865a40;
+
+ret_endpl_                 TIME=0.00000191 LINE=42     FILE=jach.f
+
+call_biof_                 TIME=0.00000286 LINE=45     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=45     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=45     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=45     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00000906 LINE=45     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000095 LINE=45     FILE=jach.f
+
+call_biof_                 TIME=0.00000620 LINE=51     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=51     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=51     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=51     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00003409 LINE=51     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=51     FILE=jach.f
+
+call_biof_                 TIME=0.00000095 LINE=52     FILE=jach.f
+
+ret_biof_                  TIME=0.00000095 LINE=52     FILE=jach.f
+
+call_arrcpy_               TIME=0.00000100 LINE=52     FILE=jach.f
+FromArrayHeader=7ffd651826e0; FromArrayHandlePtr=180cc80; ToBufferPtr=7ffd65082400; CopyRegim=2;
+FromInitIndexArray[0]=-1; FromInitIndexArray[1]=-1;  
+FromLastIndexArray[0]=2; FromLastIndexArray[1]=2;  
+FromStepArray[0]=7;      FromStepArray[1]=7;  
+
+ret_arrcpy_                TIME=0.00000100 LINE=52     FILE=jach.f
+Res=64;
+
+call_tstio_                TIME=0.00000100 LINE=52     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000095 LINE=52     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00010204 LINE=52     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=52     FILE=jach.f
+
+call_biof_                 TIME=0.00000095 LINE=53     FILE=jach.f
+
+ret_biof_                  TIME=0.00000100 LINE=53     FILE=jach.f
+
+call_tstio_                TIME=0.00000191 LINE=53     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=53     FILE=jach.f
+Res=1;
+
+call_eiof_                 TIME=0.00001001 LINE=53     FILE=jach.f
+
+ret_eiof_                  TIME=0.00000100 LINE=53     FILE=jach.f
+
+call_endbl_                TIME=0.00001502 LINE=54     FILE=jach.f
+
+ret_endbl_                 TIME=0.00000811 LINE=54     FILE=jach.f
+
+call_tstio_                TIME=0.00000095 LINE=54     FILE=jach.f
+
+ret_tstio_                 TIME=0.00000100 LINE=54     FILE=jach.f
+Res=1;
+Event_dvm_exit             TIME=0.00102496 LINE=54     FILE=jach.f
+rc=0;
+call_dvm_void_printf       TIME=0.00000100 LINE=54     FILE=jach.f
+Format= 
+
+ret_dvm_void_printf        TIME=0.00012302 LINE=54     FILE=jach.f
+ 
+
+RTS VERSION = 2889
+
+syspar   file version = 2889 (min vers = 2889)
+sysdebug file version = 2889 (min vers = 2889)
+systrace file version = 2889 (min vers = 2889)
+trcevent file version = 2889 (min vers = 2889)
+usrdebug file version = 2889 (min vers = 2889)
+statist  file version = 2889 (min vers = 2889)
+
+DACount=       0; DVMObjCount=       0;
+    TaskTime=0.103731;   TaskTraceTime=0.103213;
+  SystemTime=0.109167; SystemTraceTime=0.105345;
