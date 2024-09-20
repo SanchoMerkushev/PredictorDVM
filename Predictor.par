@@ -2,7 +2,7 @@
 cluster = mvs;
 
 // search optimal processor set   0=off   1=euristik   2=full_not_bad   3=full_bad   5=compare 1-and-2
-search=0;
+search=1;
 
 // Cluster properties: 
 mvs = {512 x mvsP2};
